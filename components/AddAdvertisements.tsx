@@ -18,10 +18,8 @@ const AdComponent = () => {
 
   return (
     <>
-      <Head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905842999139001"
           crossOrigin="anonymous"></script>
-      </Head>
       <ins className="adsbygoogle"
         style={{ display: "block", backgroundColor:"black" }}
         data-ad-client="ca-pub-5905842999139001"
