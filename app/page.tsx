@@ -21,6 +21,7 @@ export default function Home() {
         </div>
       </div>
         <h1 className="text-4xl font-extrabold">OnlineZones Game Demo</h1>
+        <h1 className="text-4xl font-extrabold">Add Google Adds Script</h1>
     </main>
   );
 }
