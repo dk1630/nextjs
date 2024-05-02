@@ -1,18 +1,20 @@
 "use client"
+import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
-import React, { useEffect } from 'react';
 
 const AdComponent = () => {
+  const [isAdLoaded, setIsAdLoaded] = useState(false);
 
   useEffect(() => {
-    try {
-      if (window.adsbygoogle) {
+    if (!isAdLoaded && window.adsbygoogle) {
+      try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
+        setIsAdLoaded(true); // Set to true after successfully loading the ad
+      } catch (err) {
+        console.log(err);
       }
-    } catch (err) {
-      console.log(err);
     }
-  }, []);
+  }, [isAdLoaded]); 
 
   return (
     <>
@@ -21,7 +23,7 @@ const AdComponent = () => {
           crossOrigin="anonymous"></script>
       </Head>
       <ins className="adsbygoogle"
-        style={{ display: "block",color:"black" }}
+        style={{ display: "block", backgroundColor:"black" }}
         data-ad-client="ca-pub-5905842999139001"
         data-ad-slot="7996162986"
         data-ad-format="auto"
