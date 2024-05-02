@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Head from 'next/head'; // Import the Head component
 import "./globals.css";
@@ -13,12 +12,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
       <Head>
-        <script
+        <Head>
+          <meta name="viewport" content="initial-scale=1, width=device-width" />
+          <meta name="google-adsense-account" content="ca-pub-3264556574788844"/>
+        </Head>
+        {/* <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3264556574788844"
           crossOrigin="anonymous"
-        ></script>
+        ></script> */}
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
