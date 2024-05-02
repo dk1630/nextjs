@@ -5,11 +5,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3264556574788844"
-          crossOrigin="anonymous"
-        ></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905842999139001"
+          crossOrigin="anonymous"></script>
+          <meta name="google-adsense-account" content="ca-pub-5905842999139001"/>
       </Head>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
@@ -28,8 +26,8 @@ export default function Home() {
           </a>
         </div>
       </div>
-        <h1 className="text-4xl font-extrabold">OnlineZones Game Demo</h1>
-        <h1 className="text-4xl font-extrabold">Add Google Adds Script</h1>
+      <h1 className="text-4xl font-extrabold">OnlineZones Game Demo</h1>
+      <h1 className="text-4xl font-extrabold">Add Google Adds Script</h1>
     </main>
   );
 }
