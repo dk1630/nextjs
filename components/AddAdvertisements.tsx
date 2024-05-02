@@ -20,13 +20,18 @@ const AdComponent = () => {
   return (
     <>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905842999139001"
-        crossOrigin="anonymous"></script>
-      <ins className="adsbygoogle"
+     crossOrigin="anonymous"></script>
+      {/* <ins className="adsbygoogle"
         style={{ display: "block", backgroundColor: "black" }}
         data-ad-client="ca-pub-5905842999139001"
-        data-ad-slot="7996162986"
+        data-ad-slot="4412141194"
         data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
+        data-full-width-responsive="true"></ins> */}
+
+      <ins className="adsbygoogle"
+        style={{ display: "inline-block", width: "728px", height: "90px" }}
+        data-ad-client="ca-pub-5905842999139001"
+        data-ad-slot="4412141194"></ins>
     </>
   );
 };
