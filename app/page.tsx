@@ -19,9 +19,9 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <AdComponent />
       <h1 className="text-4xl font-extrabold">OnlineZones Game Demo</h1>
       {/* Include AdComponent where appropriate */}
-      <AdComponent />
     </main>
   );
 }
