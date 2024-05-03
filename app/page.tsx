@@ -1,4 +1,5 @@
 import AdComponent from "@/components/AddAdvertisements";
+import Script from "next/script";
 
 
 export default function Home() {
@@ -19,12 +20,18 @@ export default function Home() {
     //       </a>
     //     </div>
     //   </div>
-      <>
+    <>
+       {/* <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905842999139001"
+        crossOrigin="anonymous"></Script> */}
       <div className="bg-black">
-      <AdComponent />
+        {/* <AdComponent 
+        data-ad-slot="5649201243"
+          data-ad-format="auto"
+          data-full-width-responsive="true" /> */}
+          <AdComponent/>
       </div>
       <h1 className="text-4xl font-extrabold">OnlineZones Game Demo</h1>
-      </>
+    </>
     // </main>
   );
 }

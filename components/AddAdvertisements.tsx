@@ -1,7 +1,7 @@
 // "use client"
 // import React, { useEffect } from 'react';
 
-// const AdComponent = () => {
+// const AdComponent = ({props}:any) => {
 //   useEffect(() => {
 //     const pushAd = () => {
 //       try {
@@ -18,57 +18,52 @@
 
 //   return (
 //     <>
-//       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905842999139001"
+//       {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905842999139001"
 //         crossOrigin="anonymous"></script>
 //       <ins className="adsbygoogle"
-//         style={{ display: "inline-block", width: "728px", height: "100px",backgroundColor:"gray" }}
+//         style={{ display: "block", overflow: "hidden" }}
 //         data-ad-client="ca-pub-5905842999139001"
-//         data-ad-slot="4412141194"></ins>
+//         data-adtest="on"
+//         {...props}
+//       ></ins> */}
+
+      
+      
 //     </>
 //   );
 // };
 
 // export default AdComponent;
 
-
-// components/AdComponent.tsx
-
 "use client"
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
-const AdComponent = () => {
+const AdComponent: React.FC = () => {
   useEffect(() => {
-    // Function to handle the loading of the adsbygoogle script
-    const loadAdsScript = () => {
-      const script = document.createElement('script');
-      script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905842999139001";
-      script.async = true;
-      script.crossOrigin = "anonymous";
-      document.body.appendChild(script);
+    // Create the <script> tag
+    const script = document.createElement('script');
+    script.src = "//www.topcreativeformat.com/8ce1b057bc5324c8dd97458c0e951450/invoke.js";
+    script.async = true;
 
-      // Initialize ads after the script is loaded
-      script.onload = () => {
-        (window as any).adsbygoogle = (window as any).adsbygoogle || [];
-        (window as any).adsbygoogle.push({});
-      };
+    // Set up the ad options
+    (window as any).atOptions = {
+      'key': '8ce1b057bc5324c8dd97458c0e951450',
+      'format': 'iframe',
+      'height': 600,
+      'width': 160,
+      'params': {}
     };
 
-    // Load the script if it hasn't been loaded yet
-    if (!(window as any).adsbygoogle) {
-      loadAdsScript();
-    } 
-    // else {
-    //   (window as any).adsbygoogle.push({});
-    // }
+    // Append the script to the body
+    document.body.appendChild(script);
+
+    // Clean up
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
 
-  return (
-    <ins className="adsbygoogle"
-         style={{ display: "inline-block", width: "728px", height: "90px" }}
-         data-ad-client="ca-pub-5905842999139001"
-         data-ad-slot="4412141194">
-    </ins>
-  );
+  return null; // This component does not render anything itself
 };
 
 export default AdComponent;
