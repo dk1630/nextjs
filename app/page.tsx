@@ -21,7 +21,7 @@ export default function Home() {
       <div className="bg-black">
         <img src="https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp" />
       </div>
-      <h1 className="text-4xl font-extrabold">OnlineZones Game Demo 12</h1>
+      <h1 className="text-4xl font-extrabold">OnlineZones Game OG</h1>
     </>
   );
 }
