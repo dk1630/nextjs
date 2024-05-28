@@ -18,6 +18,21 @@ export default function Home() {
         <meta property="og:image" content="https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp" />
         <link rel="canonical" href={`https://nextjs-seven-rosy-32.vercel.app/`} />
         <meta name="google-site-verification" content="Fsk2xaeXXp_K1UQNwk1RObnbvrq9HOxCpcm2uSzbx5U" />
+      <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "ONLINE GAMER XONES 2",
+    "description": "ONLINE GAMER XONES 2 , This is an article that demonstrates structured data.",
+    "image": "https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp",
+    "datePublished": "2020-02-11T06:42:03.706Z",
+    "author": {
+      "@type": "Person",
+      "name": "John Reilly",
+      "url": "https://nextjs-seven-rosy-32.vercel.app/"
+    }
+  }
+</script>
       {/* </head> */}
       <div className="bg-black flex">
         <img src="https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp" />
