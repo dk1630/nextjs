@@ -9,6 +9,7 @@ export default function Home() {
      {/* <head> */}
         <title>ONLINE GAMER XONES</title>
         <meta name="description" content="Discover the best online games at Online Game Zones. Play and enjoy a wide variety of games for all ages!" />
+        <meta name="title" content="ONLINE GAMER XONES" />
         <meta name="keywords" content={` FSSS, OnlineZones, Game, Demo, 12,`} />
         <meta property="og:title" content="ONLINE GAMER XONES" />
         <meta property="og:description" content="Discover the best online games at Online Game Zones. Play and enjoy a wide variety of games for all ages!" />
