@@ -1,5 +1,6 @@
 import AdComponent from "@/components/AddAdvertisements";
 import Script from "next/script";
+import Head from "next/head";
 
 
 export default function Home() {
@@ -21,6 +22,10 @@ export default function Home() {
     //     </div>
     //   </div>
     <>
+      <Head>
+        <title>Testing Site</title>
+         <meta name="google-site-verification" content="Fsk2xaeXXp_K1UQNwk1RObnbvrq9HOxCpcm2uSzbx5U" />
+      </Head>
        {/* <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905842999139001"
         crossOrigin="anonymous"></Script> */}
       <div className="bg-black">
