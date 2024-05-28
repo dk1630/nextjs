@@ -9,7 +9,7 @@ export default function Home() {
      {/* <head> */}
         <title>FSSS OnlineZones Game Demo 12n</title>
         <meta name="description" content="Discover the best online games at Online Game Zones. Play and enjoy a wide variety of games for all ages!" />
-        <meta name="keywords" content={` FSSS OnlineZones Game Demo 12`} />
+        <meta name="keywords" content={` FSSS, OnlineZones, Game, Demo, 12,`} />
         <meta property="og:title" content="FSSS OnlineZones Game Demo 12" />
         <meta property="og:description" content="Discover the best online games at Online Game Zones. Play and enjoy a wide variety of games for all ages!" />
         <meta property="og:url" content={`https://nextjs-seven-rosy-32.vercel.app/`} />
