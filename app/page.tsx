@@ -1,5 +1,4 @@
 import AdComponent from "@/components/AddAdvertisements";
-import Script from "next/script";
 import Head from "next/head";
 
 
@@ -19,6 +18,7 @@ export default function Home() {
         <meta name="google-site-verification" content="Fsk2xaeXXp_K1UQNwk1RObnbvrq9HOxCpcm2uSzbx5U" />
       </Head>
       <div className="bg-black">
+        <img src="https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp" />
       </div>
       <h1 className="text-4xl font-extrabold">OnlineZones Game Demo 12</h1>
     </>
