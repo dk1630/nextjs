@@ -30,7 +30,7 @@ export default async function RootLayout({
     <html lang="en">
       {/* <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905842999139001"
         crossOrigin="anonymous"></Script> */}
-      <head>
+      <Head>
       
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,7 +46,7 @@ export default async function RootLayout({
     <link rel="canonical" href="https://nextjs-seven-rosy-32.vercel.app/">
     <meta name="google-site-verification" content="Fsk2xaeXXp_K1UQNwk1RObnbvrq9HOxCpcm2uSzbx5U">
        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }} />
-      </head>
+      </Head>
         
       {/* <meta name="google-adsense-account" content="ca-pub-5905842999139001" /> */}
       <body className={inter.className}>{children}</body>
