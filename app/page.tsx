@@ -25,7 +25,7 @@ export default function Home() {
   
   return (
     <>
-     <Head>
+     <head>
        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D</title>
         <meta name="description" content="Discover the best online games at Online Game Zones. Play and enjoy a wide variety of games for all ages!" />
@@ -51,7 +51,7 @@ export default function Home() {
         <link rel="canonical" href={`https://nextjs-seven-rosy-32.vercel.app/`} />
         <meta name="google-site-verification" content="Fsk2xaeXXp_K1UQNwk1RObnbvrq9HOxCpcm2uSzbx5U" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }} />
-      </Head>
+      </head>
       <div className="bg-black flex">
         <img src="https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp" />
         <img src="https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp" />
