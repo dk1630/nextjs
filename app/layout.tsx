@@ -38,7 +38,7 @@ export default async function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp" />
         <link rel="canonical" href={`https://nextjs-seven-rosy-32.vercel.app/`} />
-        <meta name="google-site-verification" content="Fsk2xaeXXp_K1UQNwk1RObnbvrq9HOxCpcm2uSzbx5U" />
+       <meta name="google-site-verification" content="Fsk2xaeXXp_K1UQNwk1RObnbvrq9HOxCpcm2uSzbx5U" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }} />
       </Head>
         
