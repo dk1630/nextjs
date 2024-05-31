@@ -31,12 +31,12 @@ export default async function RootLayout({
         crossOrigin="anonymous"></Script> */}
       <Head>
       
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY</title>
     <meta name="description" content="TESTING DOMIN AND MY WEB IN GOOGLE, AND IT"S WORKING YAY HURRAY!"/>
     <meta name="keywords" content="TESTING DOMIN AND MY WEB IN GOOGLE, AND IT"S WORKING YAY HURRAY!"/>
-    <meta name="robots" content="index,follow">
+    <meta name="robots" content="index,follow"/>
     <meta property="og:title" content="TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY"/>
     <meta property="og:description" content="TESTING DOMIN AND MY WEB IN GOOGLE, AND IT"S WORKING YAY HURRAY!"/>
     <meta property="og:url" content="https://nextjs-seven-rosy-32.vercel.app/"/>
