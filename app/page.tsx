@@ -6,7 +6,7 @@ export default function Home() {
  const articleStructuredData = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "ONLINE GAMER XONES 2",
+    "headline": "TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D",
     "description": "ONLINE GAMER XONES 2 , This is an article that demonstrates structured data.",
     "image": "https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp",
     "datePublished": "2020-02-11T06:42:03.706Z",
@@ -21,11 +21,11 @@ export default function Home() {
   return (
     <>
      <head>
-        <title>TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY</title>
+        <title>TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D</title>
         <meta name="description" content="Discover the best online games at Online Game Zones. Play and enjoy a wide variety of games for all ages!" />
-        <meta name="title" content="TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY" />
+        <meta name="title" content="TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D" />
         <meta name="keywords" content={` FSSS, OnlineZones, Game, Demo, 12,`} />
-        <meta property="og:title" content="TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY" />
+        <meta property="og:title" content="TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D" />
         <meta property="og:description" content="Discover the best online games at Online Game Zones. Play and enjoy a wide variety of games for all ages!" />
         <meta property="og:url" content={`https://nextjs-seven-rosy-32.vercel.app/`} />
         <meta property="og:type" content="website" />
