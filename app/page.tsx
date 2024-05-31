@@ -1,32 +1,32 @@
 import Head from "next/head";
 import type { Metadata } from 'next'
  
-export const metadata: Metadata = {
-  title: 'TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D',
-  description: 'ONLINE GAMER XONES 2 , This is an article that demonstrates structured data.',
-}
+// export const metadata: Metadata = {
+//   title: 'TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D',
+//   description: 'ONLINE GAMER XONES 2 , This is an article that demonstrates structured data.',
+// }
 
 
 
 export default function Home() {
- const articleStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D",
-    "description": "ONLINE GAMER XONES 2 , This is an article that demonstrates structured data.",
-    "image": "https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp",
-    "datePublished": "2020-02-11T06:42:03.706Z",
-    "author": {
-      "@type": "Person",
-      "name": "John Reilly",
-      "url": "https://nextjs-seven-rosy-32.vercel.app/"
-    }
-  }
+ // const articleStructuredData = {
+ //    "@context": "https://schema.org",
+ //    "@type": "Article",
+ //    "headline": "TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D",
+ //    "description": "ONLINE GAMER XONES 2 , This is an article that demonstrates structured data.",
+ //    "image": "https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp",
+ //    "datePublished": "2020-02-11T06:42:03.706Z",
+ //    "author": {
+ //      "@type": "Person",
+ //      "name": "John Reilly",
+ //      "url": "https://nextjs-seven-rosy-32.vercel.app/"
+ //    }
+ //  }
    
   
   return (
     <>
-     <head>
+{/*      <head>
         <title>TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D</title>
         <meta name="description" content="Discover the best online games at Online Game Zones. Play and enjoy a wide variety of games for all ages!" />
         <meta name="title" content="TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D" />
@@ -39,12 +39,12 @@ export default function Home() {
         <link rel="canonical" href={`https://nextjs-seven-rosy-32.vercel.app/`} />
         <meta name="google-site-verification" content="Fsk2xaeXXp_K1UQNwk1RObnbvrq9HOxCpcm2uSzbx5U" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }} />
-      </head>
+      </head> */}
       <div className="bg-black flex">
         <img src="https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp" />
         <img src="https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp" />
       </div>
-      <h1 className="text-4xl font-extrabold">TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY</h1>
+      <h1 className="text-4xl font-extrabold">TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D</h1>
     </>
   );
 }
