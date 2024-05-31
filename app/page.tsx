@@ -1,4 +1,10 @@
 import Head from "next/head";
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'TESTSING DOMIN AND MY WEB IN GOOGLE NEXT SEVEN ROSY BY KUNAL D',
+  description: 'ONLINE GAMER XONES 2 , This is an article that demonstrates structured data.',
+}
 
 
 
