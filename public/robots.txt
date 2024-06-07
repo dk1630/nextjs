@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin
+
+# Host
+Host: https://nextjs-seven-rosy-32.vercel.app/
+
+# Sitemaps
+Sitemap: https://nextjs-seven-rosy-32.vercel.app/sitemap.xml
