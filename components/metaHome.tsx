@@ -35,6 +35,7 @@ const MetaHome = () => {
                 content="https://imgupscaler.com/images/samples/Imgupscaler_1_2x.webp"
                 data-react-helmet="true"
             />
+            <link rel='icon' href='/app/favicon.ico' />
             <meta
                 name="twitter:description"
                 content="Discover the best online games at Online Game Zones. Play and enjoy a wide variety of games for all ages!"
