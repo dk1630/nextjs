@@ -40,10 +40,11 @@ export default async function RootLayout({
         <link rel="canonical" href={`https://nextjs-seven-rosy-32.vercel.app/`} />
        <meta name="google-site-verification" content="Fsk2xaeXXp_K1UQNwk1RObnbvrq9HOxCpcm2uSzbx5U" />
         
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905842999139001"
-     crossOrigin="anonymous"></script>
+     
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }} />
       </Head>
+       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905842999139001"
+     crossOrigin="anonymous"></script>
         
       {/* <meta name="google-adsense-account" content="ca-pub-5905842999139001" /> */}
       <body className={inter.className}>{children}</body>
