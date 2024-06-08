@@ -42,7 +42,7 @@ const About = () => {
                 />
                 <meta name="twitter:site" content="https://nextjs-seven-rosy-32.vercel.app/about" data-react-helmet="true" />
                 <link rel="canonical" href={`https://nextjs-seven-rosy-32.vercel.app/about`} data-react-helmet="true" />
-                <meta name="google-site-verification" content="Fsk2xaeXXp_K1UQNwk1RObnbvrq9HOxCpcm2uSzbx5U" data-react-helmet="true" />
+{/*                 <meta name="google-site-verification" content="Fsk2xaeXXp_K1UQNwk1RObnbvrq9HOxCpcm2uSzbx5U" data-react-helmet="true" /> */}
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }} />
         
             <div>
